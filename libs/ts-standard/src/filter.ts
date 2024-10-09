@@ -28,6 +28,7 @@ export function isNonNullable<T>(value: Nullable<T>): value is NonNullable<T> {
  * Check if an object has `NonNullable` values for the given keys.
  *
  * @typeParam T - type of value to check
+ * @typeParam K - keys of `T` to check
  *
  * @param keys - to check values of
  * @returns - function to check a given value
